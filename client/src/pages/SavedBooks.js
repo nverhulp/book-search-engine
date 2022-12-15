@@ -22,7 +22,7 @@ const SavedBooks = () => {
        const data = await removeBook({
         variables: {bookId},
       });
-
+ 
       setData(()=>{
         return{
           ...userData,
